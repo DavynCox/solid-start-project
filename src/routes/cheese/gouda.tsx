@@ -1,8 +1,8 @@
 import { Title } from "solid-start";
 
 type CheeseProps = {
-    name: string;
-}
+  name: string;
+};
 
 export default function Ghouda(props: CheeseProps) {
   return (
