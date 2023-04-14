@@ -1,2 +1,9 @@
-# Davyn's Epic Solid Start Expirement
-The goal of this is to learn how this framework works and how to do SSR 
+# My First Solid Start Project
+
+## Setup:
+* Clone Repo
+* npm install
+* npm run dev
+
+## Notes
+This is going to eventually be the frontend for my Django Rest API project. I'm just learning as I go, so we'll see.
