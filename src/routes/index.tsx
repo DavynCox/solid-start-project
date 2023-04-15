@@ -1,11 +1,12 @@
 import { Title } from "solid-start";
 import beanImg from "../assets/bean.jpeg";
+import homepageImg from "../assets/homepageImg.png";
 
 export default function Home() {
   return (
     <main>
-      <Title>Welcome</Title>
-      <h1>You Stumbled Upon my Repo!</h1>
+      <Title>Recipes</Title>
+      <h1>Solid Start Recipe App</h1>
       <div
         style={{
           display: "flex",
@@ -14,21 +15,22 @@ export default function Home() {
           "align-items": "center",
         }}
       >
-        <b>Welcome to Davyn's Big Solid Start Adventure.</b>
+        <b>Welcome to my Solid Start demo app!</b>
         <span style={{ "padding-top": "20px" }}>
-          Idk what I'm going to do here but I think I will eventually make this
-          the frontend for my Django Recipe API
+          I am making this app to teach myself how the new Solid Start framework
+          works. I am focusing on building a simple reactive app that uses a
+          Django REST API as a backend.
         </span>
-        <a href="https://www.youtube.com/watch?v=qyYHWkVWQ4o" target="blank">
+        <span style={{ "margin-top": "10px" }}>
+          Starting small is usually the best option, so this app is just for
+          posting and viewing recipes.
+        </span>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="blank">
           <img
-            src={beanImg}
-            style={{ width: "750px", "padding-top": "20px" }}
+            src={homepageImg}
+            style={{ width: "600px", "padding-top": "20px" }}
           />
         </a>
-        <span style={{ "padding-top": "20px" }}>
-          If you have an hour and a half, you should check this movie out. It
-          was made by one guy, like Tame Impala!
-        </span>
       </div>
     </main>
   );

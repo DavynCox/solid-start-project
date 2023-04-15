@@ -13,6 +13,7 @@ import {
   Title,
 } from "solid-start";
 import "./root.css";
+import Navbar from "./components/Navbar/Navbar";
 
 export default function Root() {
   return (
@@ -25,8 +26,7 @@ export default function Root() {
       <Body>
         <Suspense>
           <ErrorBoundary>
-            <A href="/">Index</A>
-            <A href="/cheese">Cheese</A>
+            <Navbar />
             <Routes>
               <FileRoutes />
             </Routes>
