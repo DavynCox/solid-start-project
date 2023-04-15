@@ -1,4 +1,4 @@
-import { useParams, json, APIEvent } from "solid-start";
+import { useParams, json, APIEvent, useSearchParams } from "solid-start";
 
 type CheeseParamProps = {
   name: string;
@@ -6,6 +6,9 @@ type CheeseParamProps = {
 
 export default function CheeseParam(props: CheeseParamProps) {
   const params = useParams();
+  const [searchParams, setSearchParams] = useSearchParams();
+
+  console.log(searchParams.lmao);
   return <h1>The {params.param} page</h1>;
 }
 
